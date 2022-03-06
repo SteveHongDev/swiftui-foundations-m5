@@ -16,6 +16,8 @@
 		49DC4F2227BE6CBC00F32753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DC4F2127BE6CBC00F32753 /* Preview Assets.xcassets */; };
 		49DC4F2E27BE6DFC00F32753 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC4F2D27BE6DFC00F32753 /* ContentModel.swift */; };
 		49EC526A27D4DAB700E5CA03 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC526927D4DAB700E5CA03 /* HomeViewRow.swift */; };
+		49EC526C27D4E69900E5CA03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC526B27D4E69900E5CA03 /* ContentView.swift */; };
+		49EC526E27D4ECF100E5CA03 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC526D27D4ECF100E5CA03 /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		49DC4F2127BE6CBC00F32753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49DC4F2D27BE6DFC00F32753 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		49EC526927D4DAB700E5CA03 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		49EC526B27D4E69900E5CA03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49EC526D27D4ECF100E5CA03 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				49DC4F1C27BE6CBB00F32753 /* HomeView.swift */,
 				49EC526927D4DAB700E5CA03 /* HomeViewRow.swift */,
+				49EC526B27D4E69900E5CA03 /* ContentView.swift */,
+				49EC526D27D4ECF100E5CA03 /* ContentViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +202,9 @@
 			files = (
 				49DC4F1D27BE6CBB00F32753 /* HomeView.swift in Sources */,
 				49EC526A27D4DAB700E5CA03 /* HomeViewRow.swift in Sources */,
+				49EC526C27D4E69900E5CA03 /* ContentView.swift in Sources */,
 				49DC4F1B27BE6CBB00F32753 /* my_learning_app.swift in Sources */,
+				49EC526E27D4ECF100E5CA03 /* ContentViewRow.swift in Sources */,
 				49DC4F2E27BE6DFC00F32753 /* ContentModel.swift in Sources */,
 				49595C5927D4C43E009A93D0 /* Models.swift in Sources */,
 			);
