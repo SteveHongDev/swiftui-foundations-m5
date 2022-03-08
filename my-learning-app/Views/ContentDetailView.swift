@@ -25,6 +25,7 @@ struct ContentDetailView: View {
             }
             
             // TODO: Description
+            CodeTextView()
             
             // Show next lesson button if it has
             
@@ -49,6 +50,7 @@ struct ContentDetailView: View {
 
         }
         .padding()
+        .navigationTitle(lesson?.title ?? "")
     }
 }
 
