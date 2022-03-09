@@ -22,6 +22,7 @@
 		49EC527327D7071A00E5CA03 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC527227D7071A00E5CA03 /* AVKit.framework */; };
 		49EC527527D708C700E5CA03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC527427D708C700E5CA03 /* Constants.swift */; };
 		49EC52B227D74B7000E5CA03 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC52B127D74B7000E5CA03 /* CodeTextView.swift */; };
+		49EC52EE27D86D6000E5CA03 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC52ED27D86D6000E5CA03 /* RectangleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		49EC527227D7071A00E5CA03 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		49EC527427D708C700E5CA03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		49EC52B127D74B7000E5CA03 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		49EC52ED27D86D6000E5CA03 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				49DC4F1A27BE6CBB00F32753 /* my_learning_app.swift */,
-				49DC4F2C27BE6DA900F32753 /* Helpers */,
-				49DC4F2B27BE6D9E00F32753 /* Resources */,
-				49DC4F2A27BE6D9900F32753 /* Models */,
-				49DC4F2927BE6D9400F32753 /* ViewModels */,
 				49DC4F2827BE6D9000F32753 /* Views */,
+				49DC4F2927BE6D9400F32753 /* ViewModels */,
+				49DC4F2A27BE6D9900F32753 /* Models */,
+				49DC4F2B27BE6D9E00F32753 /* Resources */,
+				49DC4F2C27BE6DA900F32753 /* Helpers */,
 				49DC4F1E27BE6CBC00F32753 /* Assets.xcassets */,
 				49DC4F2027BE6CBC00F32753 /* Preview Content */,
 			);
@@ -104,6 +106,7 @@
 				49EC526D27D4ECF100E5CA03 /* ContentViewRow.swift */,
 				49EC526F27D7053B00E5CA03 /* ContentDetailView.swift */,
 				49EC52B127D74B7000E5CA03 /* CodeTextView.swift */,
+				49EC52ED27D86D6000E5CA03 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				49EC52B227D74B7000E5CA03 /* CodeTextView.swift in Sources */,
 				49DC4F2E27BE6DFC00F32753 /* ContentModel.swift in Sources */,
 				49595C5927D4C43E009A93D0 /* Models.swift in Sources */,
+				49EC52EE27D86D6000E5CA03 /* RectangleCard.swift in Sources */,
 				49EC527527D708C700E5CA03 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

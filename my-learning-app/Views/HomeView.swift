@@ -28,7 +28,7 @@ struct HomeView: View {
                             VStack(spacing: 20) {
                                 // Learning Card
                                 
-                                NavigationLink {
+                                NavigationLink(tag: module.id, selection: $model.currentSelectedContent) {
                                     ContentView().onAppear {
                                         model.beginModule(module.id)
                                     }
